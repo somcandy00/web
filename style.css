@@ -1,0 +1,48 @@
+/* 네비게이션 영역 */
+.nav1 a, .nav2 a{
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+
+.nav1 a:hover, .nav2 a:hover{
+    color: rgb(255, 37, 175);
+}
+
+/* 헤더 영역 */
+/*이미지 출처 fervoor.com/ feevoor antiquity beatuty hair pin and hair claws */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(images/background.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.header a, .logo a{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover{
+    color: rgb(255, 37, 175);
+}
+
+/* 제품소개 */
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sns{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+/* 제품소개 */
+#f div h2{
+    color: rgb(175, 109, 156);
+}
